@@ -5,7 +5,7 @@
     .controller('MainCtrl', ['$scope', function($scope) {}])
 
     /* Declare the graph directive as Element type */
-    someApp.directive('view', function() {      
+    someApp.directive('canvasContainer', function() {      
         return {
             restrict: 'E',
             templateUrl: 'views/view.html'
